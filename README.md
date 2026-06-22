@@ -58,6 +58,18 @@ CIFAR-10 contains 60,000 images across 10 classes:
 - Torchvision
 - NumPy
 
+## Improvements Made
+
+Initial CNN (2 Convolution Layers)
+- Accuracy: 53.42%
+
+Improved CNN (3 Convolution Layers)
+- Accuracy: 71.08%
+
+Key Change:
+- Added a third convolutional layer
+- Reduced Adam learning rate from 0.01 to 0.001
+
 ## Author
 
 Svanik Soma
